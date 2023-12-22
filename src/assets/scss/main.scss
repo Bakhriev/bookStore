@@ -10,8 +10,9 @@
 @import './sass-utils/global';
 
 // components
+@import './components/book';
 
 // layouts
 @import './layout/header';
-@import './layout/hero';
+@import './layout/book-catalog';
 @import './layout/footer';

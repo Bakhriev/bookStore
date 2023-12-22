@@ -1,0 +1,44 @@
+.book {
+	padding: 20px;
+
+	background-color: rgb(96, 94, 93);
+	border-radius: 10px;
+
+	color: var(--white);
+
+	&__image {
+		width: 250px;
+		height: 300px;
+		margin: 0 auto 15px;
+	}
+
+	&__name {
+		margin-bottom: 10px;
+	}
+
+	&__author {
+		margin-bottom: 15px;
+	}
+
+	&__description {
+		margin-bottom: 20px;
+		@include text-shorten(3);
+	}
+
+	&__data-wrapper {
+		@include flex-center-between;
+	}
+
+	&__price {
+	}
+}
+
+.add-cart-btn {
+}
+
+.add-card-btn {
+	&__icon {
+		width: 24px;
+		height: 24px;
+	}
+}
