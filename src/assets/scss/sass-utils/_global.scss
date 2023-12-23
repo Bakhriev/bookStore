@@ -134,25 +134,3 @@ body {
 [data-icon='cart'] {
 	fill: var(--icon-default-color);
 }
-
-.add-cart-btn {
-	width: 40px;
-	height: 40px;
-
-	font-size: 18px;
-	border-radius: 10px;
-
-	background-color: #222;
-	color: var(--white);
-	transition: background-color 220ms;
-
-	user-select: none;
-
-	@include hover {
-		background-color: #000;
-	}
-
-	&:active {
-		scale: 0.97;
-	}
-}
